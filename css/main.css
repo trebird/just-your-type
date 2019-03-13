@@ -5,13 +5,11 @@ html {
 .type-1 {
   font-family: "IM Fell English", serif;
   color: #333;
-  margin: 0 auto;
 }
 
 .type-2 {
   font-family: "Archivo Black", sans-serif;
   color: #333;
-  margin: 0 auto;
 }
 
 .monster {
@@ -26,7 +24,7 @@ html {
 .eyes {
   width: 100%;
   position: absolute;
-  top: 2rem;
+  top: 2rem
 }
 
 .eyes p {
@@ -43,6 +41,7 @@ html {
 .pupil p {
   color: #686d75;
 }
+
 .abyss {
   width: 100%;
 }
@@ -51,29 +50,11 @@ html {
   color: #000;
 }
 
-.nietzsche-1 {
+.nietzsche {
   width: 100%;
-  position: relative;
-  z-index: 1000;
 }
 
-.nietzsche-1 p {
+.nietzsche p {
   color: #686d75;
   opacity: .6;
-}
-
-.nietzsche-2 {
-  width: 100%;
-  position: absolute;
-  right: .75rem;
-  bottom: .1rem;
-}
-
-.nietzsche-2 p {
-  color: #222;
-}
-
-@media only screen and (min-width: 38em) {
-
-
 }
