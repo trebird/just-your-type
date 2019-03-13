@@ -254,11 +254,6 @@ small,
   line-height: .325rem;
 }
 
-.pico {
-  font-size: .1459rem;
-  line-height: rem;
-}
-
 ul {
   padding-left: 1em;
 }
@@ -647,11 +642,6 @@ legend {
   .nano {
     font-size: .2361rem;
     line-height: .35rem;
-  }
-
-  .pico {
-    font-size: .1459rem;
-    line-height: -0rem;
   }
 
   ul,
@@ -1068,7 +1058,6 @@ legend {
 
   .pico {
     font-size: .1459rem;
-    line-height: rem;
   }
 
   ul,
@@ -1485,7 +1474,6 @@ legend {
 
   .pico {
     font-size: .1459rem;
-    line-height: rem;
   }
 
   ul,
