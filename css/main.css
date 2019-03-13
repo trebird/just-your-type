@@ -19,6 +19,7 @@ html {
 
 .monster p {
   color: #686d75;
+  animation: fade .5s ease-in;
 }
 
 .monsters-1 {
@@ -56,6 +57,7 @@ html {
   width: 100%;
   position: absolute;
   top: 2rem;
+  z-index: 1000;
 }
 
 .eyes p {
@@ -68,11 +70,13 @@ html {
   position: absolute;
   top: -3rem;
   left: 1rem;
+  z-index: 1000;
 }
 
 .pupil p {
   color: #686d75;
   animation: fade 5s ease-in;
+  position: relative;
 }
 
 .abyss {
@@ -90,7 +94,7 @@ html {
 .nietzsche p {
   color: #686d75;
   opacity: .6;
-  animation: fade 15s ease-in;
+  animation: fade 20s ease-in;
 }
 
 @keyframes fade {
