@@ -21,6 +21,37 @@ html {
   color: #686d75;
 }
 
+.monsters-1 {
+  position: relative;
+}
+
+.monsters-2 {
+  position: absolute;
+  width: 100%;
+  top: 4.5rem;
+  left: -3rem;
+  color: rgba(98, 98, 188, 0.5);
+  animation: fade 10s ease-in;
+}
+
+.monsters-3 {
+  position: absolute;
+  width: 100%;
+  top: 5.5rem;
+  left: 0;
+  color: rgba(85, 170, 204, 0.5);
+  animation: fade 10s ease-in;
+}
+
+.monsters-4 {
+  position: absolute;
+  width: 100%;
+  top: 4.5rem;
+  left:3rem;
+  color: rgb(30, 150, 108, 0.5);
+  animation: fade 10s ease-in;
+}
+
 .eyes {
   width: 100%;
   position: absolute;
@@ -29,7 +60,7 @@ html {
 
 .eyes p {
   color: #686d75;
-  animation: fade 4s ease-in;
+  animation: fade 5s ease-in;
 }
 
 .pupil {
@@ -41,7 +72,7 @@ html {
 
 .pupil p {
   color: #686d75;
-  animation: fade 4s ease-in;
+  animation: fade 5s ease-in;
 }
 
 .abyss {
@@ -65,11 +96,11 @@ html {
 @keyframes fade {
 
   0% {
-    color: #121212;
+    opacity: 0;
   }
 
   100% {
-    color: #686d75;
+    opacity: 100%;
   }
 
 }
