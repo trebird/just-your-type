@@ -24,11 +24,12 @@ html {
 .eyes {
   width: 100%;
   position: absolute;
-  top: 2rem
+  top: 2rem;
 }
 
 .eyes p {
   color: #686d75;
+  animation: fade 4s ease-in;
 }
 
 .pupil {
@@ -40,6 +41,7 @@ html {
 
 .pupil p {
   color: #686d75;
+  animation: fade 4s ease-in;
 }
 
 .abyss {
@@ -57,4 +59,16 @@ html {
 .nietzsche p {
   color: #686d75;
   opacity: .6;
+  animation: fade 15s ease-in;
+}
+
+@keyframes fade {
+
+  0% {
+    color: #121212;
+  }
+  100% {
+    color: #686d75;
+  }
+
 }
