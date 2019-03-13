@@ -1,5 +1,5 @@
 html {
-  background-color: #121212;
+  background-color: #131313;
 }
 
 .type-1 {
@@ -85,6 +85,12 @@ html {
 
 .abyss p {
   color: #000;
+  animation: fade 5s ease-in;
+}
+
+.abysss {
+    color: #000;
+    animation: fade 1s ease-in;
 }
 
 .nietzsche {
