@@ -31,7 +31,7 @@ html {
   top: 4.5rem;
   left: -3rem;
   color: rgba(98, 98, 188, 0.5);
-  animation: fade 10s ease-in;
+  animation: fade 5s ease-in;
 }
 
 .monsters-3 {
@@ -40,7 +40,7 @@ html {
   top: 5.5rem;
   left: 0;
   color: rgba(85, 170, 204, 0.5);
-  animation: fade 10s ease-in;
+  animation: fade 5s ease-in;
 }
 
 .monsters-4 {
@@ -48,8 +48,8 @@ html {
   width: 100%;
   top: 4.5rem;
   left:3rem;
-  color: rgb(30, 150, 108, 0.5);
-  animation: fade 10s ease-in;
+  color: rgba(30, 150, 108, 0.5);
+  animation: fade 5s ease-in;
 }
 
 .eyes {
@@ -100,7 +100,7 @@ html {
   }
 
   100% {
-    opacity: 100%;
+    opacity: 1;
   }
 
 }
