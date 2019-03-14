@@ -19,7 +19,7 @@ html {
 
 .monster p {
   color: #686d75;
-  animation: fade .5s ease-in;
+  animation: fade 1s ease-in;
 }
 
 .monsters-1 {
