@@ -98,8 +98,7 @@ html {
 }
 
 .nietzsche p {
-  color: #686d75;
-  opacity: .6;
+  color: #333;
   animation: fade 20s ease-in;
 }
 
